@@ -1,6 +1,8 @@
 [core]
-    remote = localremote
+    remote = myremote
 ['remote "fuentelocal"']
     url = /tmp/dvcstore
 ['remote "localremote"']
     url = /home/ubuntu/dvc_storage
+['remote "myremote"']
+    url = s3://dammonx66-dvcstore
