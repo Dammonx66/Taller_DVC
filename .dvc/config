@@ -1,4 +1,6 @@
 [core]
-    remote = fuentelocal
+    remote = localremote
 ['remote "fuentelocal"']
     url = /tmp/dvcstore
+['remote "localremote"']
+    url = /home/ubuntu/dvc_storage
